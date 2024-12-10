@@ -1,0 +1,25 @@
+.header{
+    background-color: var(--clr-gold);
+    color: var(--clr-dark);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border:1px solid red;
+    padding: 0;
+    gap: 2em;
+}
+
+.header__link{
+    font-size: var(--size-xs);
+    font-weight: 600;
+    color: var(--clr-light);
+    text-decoration: none;
+}
